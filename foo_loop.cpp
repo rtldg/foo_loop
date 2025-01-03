@@ -196,6 +196,7 @@ public:
 		if (menu_loop_enabled) {
 			KillTimer(NULL, ptr2);
 			ptr2 = 0;
+			loop_position_end = 0.0;
 			FB2K_console_formatter() << "Loop aborted";
 		}
 	}
